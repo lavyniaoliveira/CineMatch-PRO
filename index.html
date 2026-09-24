@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMatch Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>CineMatch Pro 🎬</h1>
+
+    <nav>
+        <a href="index.html">Cadastro</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="https://www.imdb.com/chart/top/" target="_blank">
+            Sugestões
+        </a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="formulario">
+        <h2>Cadastrar Filme</h2>
+
+        <form id="filmeForm">
+
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" required>
+
+            <label for="genero">Gênero</label>
+            <input type="text" id="genero" required>
+
+            <label for="duracao">Duração (min)</label>
+            <input type="number" id="duracao" required>
+
+            <label for="imagem">URL da Capa</label>
+            <input type="url" id="imagem" required>
+
+            <label for="youtube">ID do Trailer no YouTube</label>
+            <input type="text" id="youtube" required>
+
+            <button type="submit">Salvar Filme</button>
+
+        </form>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
